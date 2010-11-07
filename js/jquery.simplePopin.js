@@ -302,7 +302,7 @@
 		};
 		
 		simplePopinTools.isIE6 = function(){
-			return (jQuery.browser.msie && jQuery.browser.version == 6) ? true : false;
+			return ($.browser.msie && $.browser.version == 6) ? true : false;
 		};
 		
 		if(methods[method]){
